@@ -69,14 +69,14 @@ html {
     overflow-x: hidden;
     padding: 0;
     margin: 0;
-    background: #fff;
+    background: rgba(0,0,0,0.0);
 }
 
 body {
     font-family: var(--body-font);
     font-size: 16px;
     font-weight: 400;
-    color: #909090;
+    color: rgba(0,0,0,0.0);
     line-height: 30px;
     padding: 0;
     line-height: 1.8em;
@@ -94,7 +94,7 @@ body.no-scroll::-webkit-scrollbar {
 }
 
 .dark-scheme {
-    color: #aaaaaa;
+    color: transparent;
 }
 
 body.dark-scheme {
@@ -218,7 +218,7 @@ header .info strong {
 }
 
 header.header-bg {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.0);
 }
 
 header.transparent {
@@ -226,7 +226,7 @@ header.transparent {
 }
 
 header.semi-transparent {
-    background: rgba(255, 255, 255, .15);
+    background: rgba(255, 255, 255, .0);
 }
 
 body:not(.side-layout) header:not(.smaller):not(.header-mobile).header-light.transparent {
